@@ -1,3 +1,13 @@
+# BruceR's ignorance
+#   Eclipse-specific files
+.classpath
+.project
+.settings/**
+#   BruceR-specific files & folders
+data/**
+docs/**
+notes/**
+
 # Compiled class file
 *.class
 
@@ -11,6 +21,7 @@
 .mtj.tmp/
 
 # Package Files #
+*.7z
 *.jar
 *.war
 *.nar
@@ -22,3 +33,4 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/classes/
